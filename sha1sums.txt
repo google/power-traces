@@ -1,0 +1,10 @@
+80db530c70d06dabba2f81c81a1204a18b69ef62  power-data-0001-2016-Oct-10.power.pbf.bz2
+1a7407e40d3ea372e2960e7629879ba3eb791eed  power-data-0002-2016-Oct-10.power.pbf.bz2
+c1994a74d257cd5b644f93273fc1f74aeeabad87  power-data-0003-2016-Oct-10.power.pbf.bz2
+fc8efe2a6efd1835dc486641501aab9733e23887  power-data-0004-2016-Oct-10.power.pbf.bz2
+6b50036b901bb4eac2f93b241b7c291c60bf5c23  power-data-0005-2016-Oct-10.power.pbf.bz2
+97d2b3d8bc617bfc982c5be69d8cff73017e4f7e  power-data-0007-2016-Oct-10.power.pbf.bz2
+c4bac4d31ea6a7a8bab90dfa6d07664e9809d0eb  power-data-0008-2016-Oct-10.power.pbf.bz2
+8adeca1bebc28734a37bc8e431cc9c58a903c642  power-data-0009-2016-Oct-10.power.pbf.bz2
+0551ebcf99cb3a38654013ac19cfed62e5206d4c  power-data-0010-2016-Oct-10.power.pbf.bz2
+44b149e5777b523b6a0aefd1e248fc1e4686e299  power-data-0011-2016-Oct-10.power.pbf.bz2

@@ -1,0 +1,35 @@
+package power_trace;
+
+message IODataAESTVLA {
+	required uint32 aes_use_tvla = 1;
+	required bytes aes_key     = 2;
+	required bytes aes_message = 3;
+	required bytes aes_digest  = 4;
+}
+
+message IOData {
+	enum IODataType {
+		AES    = 1;
+	}
+	required IODataType type = 1;
+
+	optional IODataAESTVLA aes = 2;
+	// we can add other types of IO data here
+}
+
+message Trace {
+	enum SampleFormat {
+		INT8  = 0; // 1 bytes
+		INT16 = 1; // 2 bytes
+		INT32 = 2; // 4 bytes
+		FLOAT = 3; // 4 bytes
+	}
+	// usually every trace have the same format
+	optional SampleFormat sample_format = 1 [default = INT8];
+	optional IOData io_data = 2;
+	required bytes power_values = 3;
+}
+
+message DataSet {
+	repeated Trace trace = 1;
+}
