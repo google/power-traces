@@ -1,12 +1,10 @@
 Power Traces
 
 This is a set of power trace measurements taken from a secure
-microcontroller performing a cryptographic operation.
+microcontroller performing AES.
 
-This is a blind dataset, so the the specific operation performed in
-each dataset is left unspecified. A different set of countermeasures
-is enabled in each dataset. Which countermeasures are enabled is also
-left unspecified.
+This dataset is blind. There are different countermeasures enabled and
+disabled in each trace series, but which is left unspecified.
 
 Disclaimers:
 This is not an official Google product.
